@@ -13,7 +13,7 @@ function blague() {
     // Requête vers l'API pour obtenir une blague aléatoire
     fetch('https://www.blagues-api.fr/api/type/global/random', {
         headers: {
-            'Authorization': `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMTAwMTQ0Mzk4Mjk1NTUyODE5NCIsImxpbWl0IjoxMDAsImtleSI6Iml5MTR3dDJmSHc4T2VHRUt5bVFBMmZIN1dZSUVCelR4d0xmM2lVUkp4SWo0Q3VUVkJxIiwiY3JlYXRlZF9hdCI6IjIwMjUtMDQtMjVUMTI6Mjg6MDUrMDA6MDAiLCJpYXQiOjE3NDU1ODQwODV9.d7pyMSxnXTHGqdURE83aexE7rjFq0Ozzi_00nzH4GqE`
+            'Authorization': `Bearer "API-KEY"`
         }
     })
     .then(response => response.json()) // Conversion de la réponse en JSON
