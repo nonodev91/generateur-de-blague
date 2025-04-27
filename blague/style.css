@@ -4,20 +4,17 @@ body {
     background-color: #f5f5f5;
     color: #000000;
     display: flex;
-    align-items: center;
     justify-content: center;
     transition: background-color 0.3s, color 0.3s;
 }
 
 /* Conteneur principal */
-.container {
+.boite {
     text-align: center;
-    padding: 2rem;
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     background-color: white;
     max-width: 600px;
-    width: 90%;
 
 }
 
@@ -38,7 +35,7 @@ button {
 /* Mode sombre appliqué au body */
 .dark-mode {
     background-color: #000000;
-    color: #ffffff;
+    color: #c9bebe;
 }
 
 /* Conteneur en mode sombre */
@@ -49,8 +46,7 @@ button {
 
 /*video*/
 
-video,
-source {
+video,source {
 
     border-radius: 13px;
     width: 70%;
